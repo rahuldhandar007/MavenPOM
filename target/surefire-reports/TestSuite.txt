@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 48.716 s <<< FAILURE! - in TestSuite
+com.jbk.Test.UserPageTest.verifyHeaderOfUPTest  Time elapsed: 0.375 s  <<< FAILURE!
+java.lang.AssertionError: lists don't have the same size expected [8] but found [5]
+	at com.jbk.Test.UserPageTest.verifyHeaderOfUPTest(UserPageTest.java:30)
+
+com.jbk.Test.LoginPageTest.invalidLoginTest  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at com.jbk.Test.LoginPageTest.invalidLoginTest(LoginPageTest.java:25)
+

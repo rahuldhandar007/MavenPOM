@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [JBK]">
+  <listeners>
+    <listener class-name="com.extentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Offline website testcases(failed)">
+    <classes>
+      <class name="com.jbk.Test.UserPageTest">
+        <methods>
+          <include name="verifyHeaderOfUPTest"/>
+          <include name="setUp"/>
+          <include name="VerifyValidMobnoTest"/>
+        </methods>
+      </class> <!-- com.jbk.Test.UserPageTest -->
+      <class name="com.jbk.Test.OperatorPageTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jbk.Test.OperatorPageTest -->
+      <class name="com.jbk.Test.DashboardPageTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jbk.Test.DashboardPageTest -->
+      <class name="com.jbk.Test.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jbk.Test.LoginPageTest -->
+    </classes>
+  </test> <!-- Offline website testcases(failed) -->
+</suite> <!-- Failed suite [JBK] -->

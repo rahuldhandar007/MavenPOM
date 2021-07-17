@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="JBK">
+	<listeners>
+		<listener class-name="com.extentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Offline website testcases">
+		<classes>
+			<class name="com.jbk.Test.UserPageTest" />
+			<class name="com.jbk.Test.OperatorPageTest" />
+			<class name="com.jbk.Test.LoginPageTest" />
+			<class name="com.jbk.Test.UsefulLinkPageTest" />
+			<class name="com.jbk.Test.DownloadPageTest" />
+			<class name="com.jbk.Pages.UserPage" />
+			<class name="com.jbk.Test.DashboardPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
